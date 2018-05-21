@@ -1,0 +1,316 @@
+
+body {
+	height: 100%;
+	font:normal 100% Helvertica,Arial,sans-serif;
+}
+		.login_wrapper {height: 100%;}
+		.header {height: 10%;}
+		.links {height: 15%;}
+		.footer {height: 5%;}
+		.banner,.column{height: 20%;}
+		.list {height: 30%;}
+
+/******************页头部分开始*************************/
+.header {
+	width: 100%;
+	height: 5em;
+	position: relative;
+	text-align: left;
+	background-color: #e1f2f9;
+	
+}
+
+.header .logo{
+	float: left;
+	text-align: left;
+	width: 20%;
+	height: 5em;
+
+}
+
+.header .nav{
+	float: left;
+	width: 60%;
+	height: 5em;
+
+}
+
+.nav ul {
+	display: inline-block;
+}
+
+.nav ul li{
+	float: left;
+	list-style: none; /*去掉圆点*/
+} 
+
+.nav ul li a{
+	width: 5em;
+	height: 1.75em;
+	line-height: 1.75em;
+	font-size: 1.25em;
+	margin: 0.625em 0.625em;
+	color: black;
+	display: block;
+	text-align: center;
+	text-decoration: none; /*去掉链接下划线*/
+}
+
+
+.header .entry{
+	float: left;
+	width: 20%;
+	height: 5em;
+	background-color: #e1f2f9;
+}
+
+
+
+.entry select {
+	margin: 1.875em 0.625em;
+	height: 5em;
+
+}
+
+/******************页头部分结束*************************/
+
+
+
+/******************banner图*************************/
+.banner img {
+	width: 100%;
+	height: 21.875em;
+}
+
+
+/******************主体部分开始*************************/
+
+.list {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 20%;
+    
+
+} 
+
+
+
+.list .left {
+	float: left;
+	padding-top: 1.25em;
+	text-align: left;
+	font-size: 1.125em;
+	width: 20%;
+	margin: 0 auto;
+	display: inline;
+}
+
+.left_top {
+
+ 	display: inherit;
+ 	padding-left: 0.9375em;
+}
+
+.left_top ul {
+	display: inline;
+
+}
+
+.left_top ul li{
+	float: left;
+	list-style: none; /*去掉圆点*/
+} 
+
+.left_top ul li a{
+	font-weight: bold;
+	width: 5em;
+	height: 1.25em;
+	line-height: 1.25em;
+	font-size: 1.125em;
+	margin: 0 0.3125em;
+	text-decoration: none; /*去掉链接下划线*/
+
+}
+
+.list .mid {
+	float: left;
+	text-align: left;
+	padding-top: 1.25em;
+	width: 20%;
+	font-size: 1.125em;
+	margin: 0 auto;
+	display: inline;
+
+}
+
+.mid_top {
+
+ 	display: inherit;
+ 	padding-left: 0.9375em;
+}
+
+.mid_top ul {
+	display: inline;
+
+}
+
+.mid_top ul li{
+	float: left;
+	list-style: none; /*去掉圆点*/
+} 
+
+.mid_top ul li a{
+	font-weight: bold;
+	width: 5em;
+	height: 1.25em;
+	line-height: 1.25em;
+	font-size: 1.125em;
+	margin: 0 0.3125em;
+	text-decoration: none; /*去掉链接下划线*/
+	
+}
+
+
+
+.list .right {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-top: 2.5em;
+
+}
+
+.list .right img {
+	width: 50%;
+	height: 50%;
+
+}
+
+.list ul li a {
+	text-decoration: none; /*去掉链接下划线*/
+	color: black;
+}
+
+
+
+.column {
+
+	width: 100%;
+    display: inline-block;
+    padding-left: 20%;
+
+}
+
+.column .column_top {
+	font-size: 1.125em;
+	padding-left: 1em;
+}
+
+
+.column .num1 ,.num2 ,.num3{
+	float: left;
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.125em;
+	display: inline;
+}
+
+/*<dd>默认带margin-left*/
+.column .num1 dl dd {
+
+    margin-left: 0;
+	
+}
+
+.num1 dl dd a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.column .num2 dl dd {
+	
+    margin-left: 0;
+	
+}
+
+.num2 dl dd a {
+	color: black;
+	text-decoration: none;
+
+}
+.column .num3 dl dd {
+	
+    margin-left: 0;
+	
+}
+
+.num3 dl dd a {
+	color: black;
+	text-decoration: none;
+
+}
+
+/******************主体部分结束*************************/
+
+
+/******************链接部分*************************/
+
+/*链接 */
+.links{
+	text-align: center;
+	width: 100%;
+	background-color: #e1f2f9;
+}
+
+
+.links ul{
+	display: inline-block;
+
+}
+
+
+.links ul li{
+	float: left;
+	list-style: none; /*去掉圆点*/
+}
+
+.links ul li a{
+	width: 5.5em;
+	height: 1.75em;
+	line-height: 1.75em;
+	font-size: 1.25em;
+	margin: 0.625em 0.625em;
+	color: black;
+	display: block;
+	text-align: center;
+	text-decoration: none; /*去掉链接下划线*/
+}
+
+
+/******************页脚部分*************************/
+.footer {
+   
+	width: 100%;
+	height: 5em;
+    line-height: 5em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	background-color: #89a9bd;
+
+}
+
+
+
+
+
+
+
+
+
+
